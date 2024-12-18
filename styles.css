@@ -52,20 +52,7 @@
        position: relative;
    }
 
-   .nav-links a::after {
-       content: '';
-       position: absolute;
-       bottom: -5px;
-       left: 0;
-       width: 0;
-       height: 1px;
-       background: #f0d890;
-       transition: width 0.3s;
-   }
 
-   .nav-links a:hover::after {
-       width: 100%;
-   }
 
    .hero {
        margin-top: 35vh;
@@ -134,9 +121,7 @@
        transition: transform 0.4s;
    }
 
-   .artwork-card:hover {
-       transform: translateY(-15px);
-   }
+
 
    .artwork-image {
        width: 100%;
@@ -145,9 +130,6 @@
        transition: transform 0.4s;
    }
 
-   .artwork-card:hover .artwork-image {
-       transform: scale(1.05);
-   }
 
    .artwork-info {
        padding: 2rem;
@@ -306,4 +288,3 @@
            grid-template-columns: 1fr;
        }
    }
-
